@@ -224,7 +224,7 @@ def validar_entero(mensaje):
         except (EOFError, KeyboardInterrupt):
             console.print("\n[bold yellow]Operación cancelada.[/bold yellow]")
             return None
-        
+          
 # Pide un nombre de continente, filtra la lista (ignorando mayúsculas/minúsculas) y muestra los resultados.
 
 def filtrar_por_continente(paises):
@@ -443,4 +443,3 @@ def mostrar_menu():
             padding=(1, 4)
         )
     )
-    
