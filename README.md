@@ -51,5 +51,5 @@ En caso de que el usuario elije la opcion Ascendente (A)
 El programa mostrara en pantalla mediante una tabla de colores los 250 paises en forma ascendente con una paginacion de 10 paises por pagina y ademas le dejara al usuario pasar de pagina a su gusto y volver al menu principal si asi lo desea. En caso de que el usuario decida volver al menu principal, se imprimira de nuevo sin el historial anteriormente creado por el usuario y podra navegar hasta que decida salir del mismo.
 `
 ## 📎 Enlace al video
-[Video TPI](https://youtu.be/m4AfcxaOuBM)
-https://drive.google.com/file/d/1CGISA1G9vkfquzvzB4NjrD3oJhl220JE/view?usp=drive_link (CSV de paises)
+- [Video TPI](https://youtu.be/t2BIx57dB6o)
+- [Archivo CSV](https://surl.li/oeypru)
