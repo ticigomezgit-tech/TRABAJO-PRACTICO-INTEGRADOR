@@ -203,3 +203,24 @@ def buscar_por_nombre(paises):
     mostrar_paises(resultados)
 
     pausa_para_continuar()
+    
+## Pide un número al usuario (mostrando 'mensaje') y lo valida,asegurando que sea un entero. Maneja errores de entrada.
+
+def validar_entero(mensaje):
+
+    while True:
+        try:
+            console.print(f"[bold yellow]{mensaje}[/bold yellow] ", end="")
+            valor_str = input().strip()
+            
+            if not valor_str:
+                console.print("[bold red]Error: El valor no puede estar vacío.[/bold red]")
+                continue
+            
+            return int(valor_str)
+        
+        except ValueError:
+            console.print("[bold red]Error: Por favor, ingrese un número entero válido.[/bold red]")
+        except (EOFError, KeyboardInterrupt):
+            console.print("\n[bold yellow]Operación cancelada.[/bold yellow]")
+            return None
